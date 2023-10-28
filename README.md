@@ -37,13 +37,13 @@ Before you begin, ensure you have the following prerequisites installed on your 
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/yourusername/wedding-planning-web-app.git
+   git clone git@github.com:Rubanda/planner-frontend.git
    ```
 
 2. Navigate to the project directory:
 
    ```bash
-   cd wedding-planning-web-app
+   cd planner-frontend
    ```
 
 3. Install project dependencies:

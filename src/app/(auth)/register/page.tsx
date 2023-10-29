@@ -1,13 +1,13 @@
-import Link from "next/link"
-import { cn } from "@/lib/utils"
-import { buttonVariants } from "@/components/ui/button"
-import { UserAuthForm } from "@/components/forms/user-auth-form"
-import Image from "next/image"
+import Link from "next/link";
+import { cn } from "@/lib/utils";
+import { buttonVariants } from "@/components/ui/button";
+import { UserAuthForm } from "@/components/forms/user-auth-form";
+import Image from "next/image";
 
 export const metadata = {
   title: "Create an account",
   description: "Create an account to get started.",
-}
+};
 
 export default function RegisterPage() {
   return (
@@ -28,13 +28,15 @@ export default function RegisterPage() {
           height={400}
           alt="login"
           objectFit="cover"
-          style={{ maxHeight: '100vh' }}
+          style={{ maxHeight: "100vh" }}
         />
       </div>
       <div className="lg:p-8">
         <div className="mx-auto flex w-full flex-col justify-center space-y-6 sm:w-[350px]">
           <div className="flex flex-col space-y-2 text-center">
-            <span className="mx-auto font-semibold tracking-tight">Planner</span>
+            <span className="mx-auto font-semibold tracking-tight">
+              Wedding Planner
+            </span>
             <h1 className="text-2xl font-semibold tracking-tight">
               Create an account
             </h1>
@@ -63,5 +65,5 @@ export default function RegisterPage() {
         </div>
       </div>
     </div>
-  )
+  );
 }

@@ -60,6 +60,12 @@ Before you begin, ensure you have the following prerequisites installed on your 
 
    The app should now be running locally at `http://localhost:3000`. You can access it in your web browser.
 
+## CSS Components
+
+- [Download the components From shadcn](https://ui.shadcn.com/)
+- Re-usable components built using Radix UI and Tailwind CSS.
+- Pick the components you need, copy and paste the code into your project, and customize to your needs. The code is yours.
+
 ### Deployment on Vercel
 
 1. When you push you are code it's get deployed to vercel automatically.

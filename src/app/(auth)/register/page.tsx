@@ -23,7 +23,7 @@ export default function RegisterPage() {
       </Link>
       <div className="hidden h-full  lg:block">
         <Image
-          src="https://images.unsplash.com/photo-1561214115-f2f134cc4912?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8OHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=60"
+          src="https://images.unsplash.com/photo-1523438885200-e635ba2c371e?auto=format&fit=crop&q=60&w=800&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fHdlZGRpbmd8ZW58MHx8MHx8fDA%3D"
           width={800}
           height={400}
           alt="login"

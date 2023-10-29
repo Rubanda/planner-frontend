@@ -66,6 +66,13 @@ Before you begin, ensure you have the following prerequisites installed on your 
 - Re-usable components built using Radix UI and Tailwind CSS.
 - Pick the components you need, copy and paste the code into your project, and customize to your needs. The code is yours.
 
+Sample: Accordion
+
+```bash
+    npx shadcn-ui@latest add accordion
+
+```
+
 ### Deployment on Vercel
 
 1. When you push you are code it's get deployed to vercel automatically.

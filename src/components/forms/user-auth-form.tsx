@@ -22,6 +22,7 @@ export function UserAuthForm({ className, ...props }: UserAuthFormProps) {
   }
   const [error, setError] = React.useState<string | null>(null)
   const responseSuccessGoogle = async (response: any) => {
+    console.log('response::', response)
     const tokenId = response.credential
     await signIn('credentials', {
       tokenId: tokenId,
@@ -45,9 +46,12 @@ export function UserAuthForm({ className, ...props }: UserAuthFormProps) {
   return (
     <div className="grid  justify-center gap-6 p-5" {...props}>
       {/* <div className="border-2 border-solid border-black mt-5"> */}
-        <GoogleOAuthProvider clientId="408499165978-uih9fg6qao0r6qd4nv1bsnj2181eqq1m.apps.googleusercontent.com">
+        <GoogleOAuthProvider clientId="107423939805-33hnhoc23rbkk17lahs0t6l0j4sg76s3.apps.googleusercontent.com">
           <GoogleLogin
-            onSuccess={responseSuccessGoogle}
+            onSuccess={(response)=>{
+              console.log('success',response)
+              toast({ description: 'login success ✔️' })
+            }}
             locale="en"
             theme="outline"
             width={width >= 650 ? "385px" : "250px"}

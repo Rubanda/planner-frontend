@@ -78,7 +78,7 @@ export const ProfileTab = (props: Props) => {
                                                     <p className='text-black'>Change Profile Picture</p>
                                                 </div>
                                                 <button className='w-[60px] h-[60px] outline-none'>
-                                                    <Image className='h-[60px] w-[60px] bg-[#c4c4c4] border-[50%] object-cover' src=''  alt='profile pic'/>
+                                                    <Image className=' bg-[#c4c4c4] border-[50%] object-cover' height={60} width={60} src=''  alt='profile pic'/>
                                                 </button>
                                             </div>
                                             <div className="flex flex-col space-y-1.5">

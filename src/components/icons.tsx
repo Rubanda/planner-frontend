@@ -31,7 +31,8 @@ import {
     AlignJustify,
     ThermometerSun,
     Instagram,
-    ChevronDownIcon
+    ChevronDownIcon,
+    Building2
   } from "lucide-react"
   import { LucideIcon } from "lucide-react"
   export type Icon = LucideIcon
@@ -52,6 +53,7 @@ import {
     media: Image,
     settings: Settings,
     billing: CreditCard,
+    building: Building2,
     ellipsis: MoreVertical,
     add: Plus,
     warning: AlertTriangle,
